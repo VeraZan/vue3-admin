@@ -1,9 +1,6 @@
 <template>
-  <div>
-    登录
-    <a-button type="primary">
-      Primary
-    </a-button>
+  <div class="account">
+    
   </div>
 </template>
 
@@ -13,6 +10,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+@import "./style.scss";
 </style>

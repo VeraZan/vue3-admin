@@ -49,7 +49,7 @@ module.exports = {
       // 如发现 css.modules 报错，请查看这里：http://www.web-jshtml.cn/#/detailed?id=12
       // https://blog.csdn.net/weixin_41530979/article/details/104380654
       scss: {
-        //prependData: `@import "./src/styles/main.scss";`
+        prependData: `@import "./src/styles/main.scss";`
       }
     },
     // 启用 CSS modules for all css / pre-processor files.
